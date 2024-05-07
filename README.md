@@ -29,3 +29,13 @@ and plot it against the generation, thus observing the evolutionary process.
 * If you want to analyze the feature selection results, the feature selection result outputted at the end of the evolution is used. 
 According to the set `bit_string_length`, it undergoes binary transformation. After transformation, '1' indicates selection, and '0' indicates non-selection.
 Please note that the first data point represent the Random Forest parameters Depth, and do not need to be included in the feature selection column.
+
+## DEMO
+
+
+
+
+https://github.com/007d83QQ/IGA-RandomForest/assets/109134845/fc6002d1-5883-4d51-868d-f25562c15d00
+
+
+

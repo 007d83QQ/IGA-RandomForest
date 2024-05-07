@@ -21,7 +21,7 @@ GA.init(STOP_CONDITION_GENERATION, 100, 30, 0.1f, 0.5f, 0.008f, &fitnessfunction
 ## Result analysis
 The following figure illustrates how the results of the IGA-SVM program should appear (Partial results) :
 
-![image](https://github.com/007d83QQ/IGA-RandomForest/tree/main/github)
+![image](https://github.com/007d83QQ/IGA-RandomForest/blob/main/github/IGA-result.png)
 
 If you want to analyze the evolution process of feature selection, select the best evolution score of each generation output from the evolution result 
 and plot it against the generation, thus observing the evolutionary process.

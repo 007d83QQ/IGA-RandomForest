@@ -19,13 +19,13 @@ GA.init(STOP_CONDITION_GENERATION, 100, 30, 0.1f, 0.5f, 0.008f, &fitnessfunction
 * 4. After completing the above steps, execute the program.
 
 ## Result analysis
-The following figure illustrates how the results of the IGA-SVM program should appear (Partial results) :
+The following figure illustrates how the results of the IGA-RandomForest program should appear (Partial results) :
 
 ![image](https://github.com/007d83QQ/IGA-RandomForest/blob/main/github/IGA-result.png)
 
-If you want to analyze the evolution process of feature selection, select the best evolution score of each generation output from the evolution result 
+* If you want to analyze the evolution process of feature selection, select the best evolution score of each generation output from the evolution result 
 and plot it against the generation, thus observing the evolutionary process.
 
-If you want to analyze the feature selection results, the feature selection result outputted at the end of the evolution is used. 
+* If you want to analyze the feature selection results, the feature selection result outputted at the end of the evolution is used. 
 According to the set `bit_string_length`, it undergoes binary transformation. After transformation, '1' indicates selection, and '0' indicates non-selection.
 Please note that the first data point represent the Random Forest parameters Depth, and do not need to be included in the feature selection column.
